@@ -1,8 +1,10 @@
+pub mod document;
 pub mod editor;
-use editor::*;
-pub mod terminal;
-use terminal::*;
 pub mod position;
+pub mod row;
+pub mod terminal;
+
+use editor::*;
 use position::*;
 
 fn main() {
